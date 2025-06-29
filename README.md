@@ -2,11 +2,11 @@
 
 An immersive 3D web-based art gallery built with Three.js, featuring interactive artwork displays, dynamic lighting, and smooth animations.
 
-## 🎨 Project Overview
+##  Project Overview
 
 This project demonstrates advanced 3D web development concepts using Three.js, creating an interactive virtual art gallery where users can explore various types of artwork in a 3D environment. The application showcases object-oriented programming, real-time rendering, and modern web development practices.
 
-## ✨ Features
+##  Features
 
 ### Core 3D Features
 - **5 Unique 3D Artwork Types**: Sculptures, paintings, installations, digital art, and abstract pieces
@@ -27,7 +27,7 @@ This project demonstrates advanced 3D web development concepts using Three.js, c
 - **Error Handling**: Graceful error recovery and user feedback
 - **Modern UI/UX**: Beautiful, intuitive interface design
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Modern web browser with WebGL support
@@ -37,29 +37,18 @@ This project demonstrates advanced 3D web development concepts using Three.js, c
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/selamawitsh/Graphics_group_final_project
    cd visual-art-gallery
    ```
-
-2. **Start a local server**
-   ```bash
-   # Using Python 3
-   python -m http.server 8000
    
    # Using Node.js (if you have http-server installed)
    npx http-server
    
-   # Using PHP
-   php -S localhost:8000
-   ```
 
 3. **Open in browser**
    Navigate to `http://localhost:8000`
 
-### Alternative: GitHub Pages
-The application can be hosted on GitHub Pages by pushing the code to a GitHub repository and enabling GitHub Pages in the repository settings.
-
-## 🎮 Controls
+##  Controls
 
 ### Mouse Controls
 - **Left Click + Drag**: Rotate camera around the gallery
@@ -74,7 +63,7 @@ The application can be hosted on GitHub Pages by pushing the code to a GitHub re
 - **H**: Show/hide help information
 - **ESC**: Close information panels
 
-## 🏗️ Technical Architecture
+## 🏗 Technical Architecture
 
 ### File Structure
 ```
@@ -85,6 +74,10 @@ visual-art-gallery/
 │   ├── main.js         # Application entry point
 │   ├── Gallery.js      # Main gallery class
 │   └── Artwork.js      # Individual artwork class
+│   └── BackgroundEffects.js  
+│   └── ColorThemeManager.js
+│   └── InteractiveSpotlights.js
+│   └── TalkingPeople.js
 └── README.md           # Project documentation
 ```
 
@@ -107,7 +100,7 @@ visual-art-gallery/
 - Interactive behaviors and animations
 - Information display management
 
-## 🎯 Learning Objectives Achieved
+##  Learning Objectives Achieved
 
 ### WebGL and Three.js Basics
 - Understanding 3D scene graph structure
@@ -133,7 +126,7 @@ visual-art-gallery/
 - Error handling and debugging
 - Cross-browser compatibility
 
-## 🔧 Technical Requirements Met
+##  Technical Requirements Met
 
 - ✅ **Minimum 5 unique 3D objects**: 5 different artwork types with unique geometries
 - ✅ **Camera controls**: OrbitControls implementation with smooth damping
@@ -143,7 +136,7 @@ visual-art-gallery/
 - ✅ **Animation**: Mesh movement, object morphing, and user-triggered animations
 - ✅ **External hosting**: Ready for GitHub Pages deployment
 
-## 🎨 Artwork Types
+##  Artwork Types
 
 1. **Cosmic Sphere** (Sculpture)
    - Floating spherical geometry
@@ -170,7 +163,7 @@ visual-art-gallery/
    - Industrial aesthetic
    - Green material
 
-## 🌟 Advanced Features
+##  Advanced Features
 
 ### Lighting System
 - **Ambient Light**: Overall scene illumination
@@ -190,36 +183,18 @@ visual-art-gallery/
 - **Visibility Optimization**: Pause animations when page is hidden
 - **Error Recovery**: Graceful handling of WebGL errors
 
-## 🚀 Deployment
+##  Deployment
 
 ### GitHub Pages
 1. Push code to GitHub repository
 2. Go to repository Settings > Pages
 3. Select source branch (usually `main`)
-4. Access via `https://username.github.io/repository-name`
+4. Access via `https://github.com/selamawitsh/Graphics_group_final_project`
 
-### Other Platforms
-- **Netlify**: Drag and drop the project folder
-- **Vercel**: Connect GitHub repository
-- **Firebase Hosting**: Use Firebase CLI to deploy
 
-## 🤝 Contributing
-
-This project is designed for educational purposes. Feel free to:
-- Add new artwork types
-- Implement additional lighting effects
-- Create new interaction patterns
-- Optimize performance
-- Add new features
-
-## 📝 License
+##  License
 
 This project is created for educational purposes as part of a Software Engineering course.
 
-## 👥 Team
-
-Created by [Your Team Name] for the Interactive 3D Web Applications course.
-
----
 
 **Note**: This application requires a modern web browser with WebGL support. For the best experience, use Chrome, Firefox, Safari, or Edge. 
