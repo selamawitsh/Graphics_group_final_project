@@ -1,0 +1,40 @@
+{
+  "name": "visual-art-gallery",
+  "version": "1.0.0",
+  "description": "Interactive 3D web-based art gallery built with Three.js",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "python -m http.server 8000",
+    "serve": "python -m http.server 8000"
+  },
+  "keywords": [
+    "threejs",
+    "3d",
+    "webgl",
+    "art-gallery",
+    "interactive",
+    "javascript",
+    "web-development"
+  ],
+  "author": "Your Team Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/visual-art-gallery.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/visual-art-gallery/issues"
+  },
+  "homepage": "https://yourusername.github.io/visual-art-gallery",
+  "devDependencies": {},
+  "dependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+} 
