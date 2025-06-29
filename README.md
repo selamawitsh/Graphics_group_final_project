@@ -63,7 +63,7 @@ This project demonstrates advanced 3D web development concepts using Three.js, c
 - **H**: Show/hide help information
 - **ESC**: Close information panels
 
-## 🏗 Technical Architecture
+##  Technical Architecture
 
 ### File Structure
 ```
@@ -128,13 +128,13 @@ visual-art-gallery/
 
 ##  Technical Requirements Met
 
-- ✅ **Minimum 5 unique 3D objects**: 5 different artwork types with unique geometries
-- ✅ **Camera controls**: OrbitControls implementation with smooth damping
-- ✅ **Lighting system**: Ambient, directional, point, and spot lights
-- ✅ **User interaction**: Click, hover, keyboard, and drag controls
-- ✅ **Texture mapping**: Procedural materials and texture support
-- ✅ **Animation**: Mesh movement, object morphing, and user-triggered animations
-- ✅ **External hosting**: Ready for GitHub Pages deployment
+-  **Minimum 5 unique 3D objects**: 5 different artwork types with unique geometries
+-  **Camera controls**: OrbitControls implementation with smooth damping
+-  **Lighting system**: Ambient, directional, point, and spot lights
+-  **User interaction**: Click, hover, keyboard, and drag controls
+-  **Texture mapping**: Procedural materials and texture support
+-  **Animation**: Mesh movement, object morphing, and user-triggered animations
+-  **External hosting**: Ready for GitHub Pages deployment
 
 ##  Artwork Types
 
